@@ -1,0 +1,106 @@
+
+
+
+/* 搜索栏 */
+.search {
+    margin: 72px 360px 0 300px;
+}
+.search .search-first h2 {
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 34px;
+    margin-top: 12px;
+}
+.search .search-first .first_name {
+    float: left;
+}
+.first {
+    float: left;
+    position: relative;
+}
+.search .search-first input {
+    padding-left: 4px;
+    padding-right: 72px;
+    outline: none;
+    margin-left: 70px;
+    float: left;
+    width: 563px;
+    height: 58px;
+    box-sizing: border-box;
+    border: 2px solid #EEEEEE;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: '微软雅黑';
+}
+.first span {
+    width: 68px;
+    height: 56px;
+    background-color: #EEEEEE;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    font-size: 24px;
+    line-height: 56px;
+    text-align: center;
+    cursor: pointer;
+}
+.search>p {
+    font-size: 16px;
+}
+
+
+/* 搜索内容 */
+
+.search-content {
+    margin: 48px 360px 0 300px;
+}
+.search-content ul li {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.search-content ul li .img {
+    width: 197px;
+    height: 197px;
+    border: 1px solid  #EEEEEE;
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.search-content ul li img {
+    width: 196px;
+    height: 196px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}    
+.search-content ul li:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.search-content ul li h3 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+.search-content ul li strong {
+    letter-spacing: 2px;
+    display: block; 
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 50px;
+}
+.search-content ul li a {
+    line-height: 40px;
+    font-size: 14px;
+    color: #000;
+}
+.search-content ul li:last-child {
+    margin-bottom: 156px;
+}
+.search-content ul li:hover {
+    text-decoration: underline; 
+}

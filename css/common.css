@@ -1,0 +1,192 @@
+body{
+    overflow-x: hidden;
+}
+body,ul,ol,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{vertical-align: top;}
+a{text-decoration: none;}
+.clearfix:after{
+	content: "";
+	display:block;
+	clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.gWidth{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.btop{
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    padding: 1px;
+}
+.btop .top_nav{
+    height: 40px;
+    margin-top: 30px;
+}
+.btop .top_nav .logo{
+    margin-right: 345px;
+    width: 140px;
+    height: 30px;
+    margin-top: 5px;
+}
+.btop .top_nav .logo img{
+    width: 100%;
+    height: 100%;
+}
+.btop .top_nav ul li{
+    color: #fff;
+    float: left;
+    position: relative;
+    margin-right: 42px;
+    font-size: 16px;
+    line-height: 40px;
+}
+.btop .top_nav ul li a{
+    color: #fff;
+}
+.btop .top_nav ul li span{
+    position: absolute;
+    right: -18px;
+    top: 2px;
+    display: none;
+}
+.btop .top_nav ul .active a{
+    color: #FF6666;
+}
+.btop .top_nav ul .active span{
+    display: inline;
+}
+.btop .top_nav .select{
+    width: 200px;
+    height: 38px;
+    border: none;
+    background:url(../img/select.png) no-repeat 174px center #7D7982;
+    background-size: 18px 18px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 8px;
+    color: #fff;
+}
+.btop .top_nav .Product{
+    background-color: #2A2D3F;
+    width: 550px;
+    height: 110px;
+    position: fixed;
+    top: 110px;
+    left: 720px;
+    display: none;
+    z-index: 1200;
+}
+.btop .top_nav .Product ol li{
+    float: left;
+    line-height: 110px;
+    margin-left: 80px;
+}
+.btop .top_nav .Product ol li a{
+    color: #fff;
+}
+.btop .top_nav .Product ol li a:hover{
+    color: #FF6666;
+}
+
+
+.bbottom{
+    height: 500px;
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.bbottom ul{
+    margin-top: 60px;
+}
+.bbottom ul>li{
+    float: left;
+    width: 300px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.bbottom ul>li a{
+    color: #fff;
+}
+.bbottom ul>li ol li:first-child{
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: bold;
+}
+.bbottom div{
+    position: relative;
+    height: 500px;
+}
+.bbottom div p{
+    color: #8B8B8B;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    bottom: 120px;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    font-family: '微软雅黑';
+}
+.F_chanpin {
+    height: 357px;
+    padding-left: 24px;
+    padding-top: 72px;
+}
+.F_chanpin ul li h5{
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.F_chanpin ul li a{
+    line-height: 30px;
+    color: white;
+    font-size: 12px;
+}
+.F_chanpin ul .l5{
+    margin-left: 274px;
+}
+.F_chanpin ul .l6{
+    margin-left: 271px;
+}
+.F_chanpin ul .l7{
+    margin-left: 207px;
+}
+.footer .F_ban{
+    padding-left: 24px;
+    color: #5C5C5C;
+}
+
+.link{
+    width: 100%;
+    height: 80px;
+    background-color: #EEEEEE;
+    
+}
+.link ul{
+    margin: 0 auto;
+}
+.link li{
+    float: left;
+    height: 80px;
+    overflow: hidden;
+}
+.link li img{
+    height: 100%;
+}

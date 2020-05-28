@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雅马哈中国-公司概况</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/gongsigaikuang.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="font/iconfont2.css">
+</head>
+
+<body>
+    <div class="btop">
+        <div class="top_nav gWidth clearfix">
+            <div class="logo fl"><img src="img/logo.png" alt=""></div>
+            <ul class="fl" id="nav_ul">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="chanpin.html">产品<span class="iconfont icon-open"></span></a></li>
+                <li><a href="xinwenhuodong.html">新闻活动</a></li>
+                <li><a href="###">会员系统</a></li>
+                <li class="active"><a href="yamaha.html">关于雅马哈</a></li>
+            </ul>
+            <input type="text" class="select fl" id="select">
+            <script>
+                var sel = document.getElementById("select");
+                sel.onkeydown = function () {
+                    if (event.keyCode == 13) {
+                        location.href = "Searchproduct.html";
+                    }
+                }
+
+            </script>
+            <div class="Product fl" id="Product">
+                <ol class="clearfix">
+                    <li><a href="chanpinxiangxi.html">钢琴</a></li>
+                    <li><a href="chanpinxiangxi.html">吉他</a></li>
+                    <li><a href="chanpinxiangxi.html">管乐器</a></li>
+                    <li><a href="chanpinxiangxi.html">电钢琴</a></li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            var nav_ul = document.getElementById("nav_ul");
+            var nav_ul_li = nav_ul.getElementsByTagName("li");
+            var Product = document.getElementById("Product");
+            for (i = 0; i < nav_ul_li.length; i++) {
+                nav_ul_li[i].onmouseover = function () {
+                    for (i = 0; i < nav_ul_li.length; i++) {
+                        nav_ul_li[i].className = "";
+                    }
+                    this.className = "active";
+                    if (this == nav_ul_li[1]) {
+                        Product.style.display = "block";
+                    } else {
+                        Product.style.display = "none";
+                    }
+                }
+            }
+            Product.onmouseleave = function () {
+                this.style.display = "none";
+            }
+        </script>
+    </div>
+    <div class="center gWidth">
+        <ul class="clearfix nav">
+            <li><strong>关于雅马哈</strong><span class="iconfont" style="font-size: 22px;">&#xe614;</span></li>
+            <li><strong>雅马哈中国</strong></li>
+        </ul>
+        <h5>公司概况</h5>
+        <ul class="ul1 clearfix" id="gsul">
+            <li>公司概况</li>
+            <li>发展历程</li>
+
+        </ul>
+        <div class="lline" id="lline"></div>
+
+        <div class="bline"></div>
+        <ul class="ul2" id="gsul2">
+            <li class="active">
+                <p>雅马哈乐器音响(中国)投资有限公司成立于2002年5月,
+                    是由日本雅马哈株式会社在华投资组建的外商独资企业,后又陆续在中国成立了其它6家子公司,分别为雅马哈电子(苏州)有限公司、杭州雅马哈乐器有限公司、天津雅马哈电子乐器有限公司、萧山雅马哈乐器有限公司、雅马哈贸易(上海)有限公司、雅马哈乐器技术培训(上海)有限公司以及深圳雅马哈乐器音响贸易有限公司。上述七家子
+                    公司共同囊括了雅马哈在中国的所有乐器音响事业。</p>
+                <p>雅马哈乐器音响(中国)投资有限公司成立于2002年5月,
+                    是由日本雅马哈株式会社在华投资组建的外商独资企业,后又陆续在中国成立了其它6家子公司,分别为雅马哈电子(苏州)有限公司、杭州雅马哈乐器有限公司、天津雅马哈电子乐器有限公司、萧山雅马哈乐器有限公司、雅马哈贸易(上海)有限公司、雅马哈乐器技术培训(上海)有限公司以及深圳雅马哈乐器音响贸易有限公司。上述七家子
+                    公司共同囊括了雅马哈在中国的所有乐器音响事业。</p>
+                <p>雅马哈乐器音响(中国)投资有限公司成立于2002年5月,
+                    是由日本雅马哈株式会社在华投资组建的外商独资企业,后又陆续在中国成立了其它6家子公司,分别为雅马哈电子(苏州)有限公司、杭州雅马哈乐器有限公司、天津雅马哈电子乐器有限公司、萧山雅马哈乐器有限公司、雅马哈贸易(上海)有限公司、雅马哈乐器技术培训(上海)有限公司以及深圳雅马哈乐器音响贸易有限公司。上述七家子
+                    公司共同囊括了雅马哈在中国的所有乐器音响事业。</p>
+                <div class="map gWidth">
+                    <img src="img/map.png" alt="">
+                </div>
+            </li>
+            <li>
+                <h6>雅马哈发展历程</h6>
+                <div class="box">
+                    <div class="sline" id="sline">
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+                        <a href="###"></a>
+
+                    </div>
+                    <ol class="ol1">
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                    </ol>
+                    <ol class="ol2">
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="text">1985北京驻在员事务所成立</div>
+                            <div class="img"><img src="img/guanyuyaguan.png" alt=""></div>
+                        </li>
+                    </ol>
+                </div>
+
+            </li>
+        </ul>
+        <script>
+            var gsul = document.getElementById("gsul");
+            var gsul2 = document.getElementById("gsul2");
+            var lline = document.getElementById("lline");
+            var gsli = gsul.getElementsByTagName("li");
+            var gsli2 = gsul2.getElementsByTagName("li");
+
+            lline.style.left = (gsli[0].offsetWidth - 38) / 2 + "px";
+
+            for (i = 0; i < gsli.length; i++) {
+                gsli[i].index = i;
+                gsli[i].onclick = function () {
+                    lline.style.left = this.offsetLeft - 352 + (this.offsetWidth - 38) / 2 + "px";
+                    for (i = 0; i < gsli.length; i++) {
+                        gsli2[i].className = "";
+                    }
+                    gsli2[this.index].className = "active";
+                }
+            }
+
+
+            var sline = document.getElementById("sline");
+            var sa = sline.getElementsByTagName("a");
+            for (i = 0; i < sa.length; i++) {
+                sa[i].style.top = i * 120 + "px";
+            }
+        </script>
+
+    </div>
+    <div class="link">
+        <ul id="ulq">
+            <li><img src="img/logo1.png" alt=""></li>
+            <li><img src="img/logo1.png" alt=""></li>
+            <li><img src="img/logo1.png" alt=""></li>
+            <li><img src="img/logo1.png" alt=""></li>
+        </ul>
+        <script>
+            var ulq = document.getElementById("ulq");
+            var liq = ulq.getElementsByTagName("li");
+            var q = 0;
+            for (i = 0; i < liq.length; i++) {
+                q += liq[i].offsetWidth;
+            }
+            ulq.style.width = q + 4 + "px";
+        </script>
+    </div>
+    <div class="bbottom">
+        <div class="gWidth">
+            <ul class="clearfix">
+                <li>
+                    <ol>
+                        <li><a href="###">产品</a></li>
+                        <li><a href="###">钢琴</a></li>
+                        <li><a href="###">吉他</a></li>
+                        <li><a href="###">管乐器</a></li>
+                        <li><a href="###">电钢琴</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="###">新闻活动</a></li>
+                        <li><a href="###">近期活动</a></li>
+                        <li><a href="###">活动报道</a></li>
+                        <li><a href="###">产品资讯</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="###">会员系统</a></li>
+                        <li><a href="###">产品详情</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="###">关于雅马哈</a></li>
+                        <li><a href="###">雅马哈集团</a></li>
+                        <li><a href="###">雅马哈中国</a></li>
+                        <li><a href="###">关于雅观</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <p>©Copyright diandongmark.com2019.All Rights Reserved备案号冀ICP备16018121号-4.</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* banner */
+.body{
+    margin-bottom: 68px;
+}
+.body .banner{
+    width: 100%;
+}
+.body .banner img{
+    width: 100%;
+}
+.body .sidebar{
+    margin-top: 20px;
+}
+.body .sidebar li{
+    color: #CCCCCC;
+    font-size: 16px;
+    display: inline-block;
+    float: left;
+    margin-right: 18px;
+}
+.body .sidebar li a{
+    color: #8F8F8F;
+}
+/* 关于我们 */
+.body .content .guanyu{
+    width: 100%;
+    margin-top: 38px;
+    text-align: center;
+}
+.body .content .guanyu img{
+    margin-bottom: 54px;
+}
+.body .content .guanyu p{
+    margin: 0 15px 22px 17px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 35px;
+}
+/* 联系我们 */
+.body .content .lianxi{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.body .content .lianxi p{
+    font-size: 22px;
+    margin-top: 61px;
+}
+
+.body .content .lianxi ul{
+    font-size: 0;
+    margin: 36px 0 23px 0;
+}
+.body .content .lianxi ul li{
+    font-size: 22px;
+    margin-top: 19px;
+}
+.body .content .lianxi ul li span{
+    font-size: 33px;
+    color: #FF8251;
+}
+
+.body .content .lianxi ol{
+    font-size: 0;
+}
+.body .content .lianxi ol li{
+    font-size: 22px;
+    margin-top: 13px;
+}
+.body .content .lianxi ol li span{
+    font-size: 33px;
+    color: #5C7BB5;
+}
+
+/* 地图 */
+.map #dituContent{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 41px;
+}
+.iw_poi_title {
+    color:#CC5522;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+    padding-right:13px;
+    white-space:nowrap
+}
+.iw_poi_content {
+    font:12px arial,sans-serif;
+    overflow:visible;
+    padding-top:4px;
+    white-space:-moz-pre-wrap;
+    word-wrap:break-word
+}

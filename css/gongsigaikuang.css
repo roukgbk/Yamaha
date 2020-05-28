@@ -1,0 +1,171 @@
+.center .nav{
+    margin-top: 20px;
+}
+.center .nav li{
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 18px;
+    color: #CCCCCC;
+}
+.center .nav li strong{
+    margin-right: 18px;
+}
+.center .nav li strong,.center .nav li span{
+    vertical-align: top;
+    font-weight: normal;
+}
+.center .nav li:last-child{
+    color: #333;
+}
+.center h5{
+    font-size: 34px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.center .ul1 li{
+    font-size: 18px;
+    color: #333;
+    float: left;
+    margin-right: 130px;
+    line-height: 42px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.center .lline{
+    width: 38px;
+    height: 4px;
+    background-color: #4B1E78;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: .36s;
+}
+.center .bline{
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+    margin-bottom: 37px;
+}
+.center .ul2{
+    margin-bottom: 100px;
+}
+.center .ul2 p{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.center .ul2>li{
+    display: none;
+}
+.center .ul2 .active{
+    display: block;
+}
+.center .map{
+    height: 1120px;
+    margin-top: 20px;
+}
+.center .map img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.center h6{
+    font-size: 30px;
+    margin-top: 76px;
+    text-align: center;
+}
+.center .box{
+    position: relative;
+    height: 2620px;
+    margin-top: 10px;
+    width: 100%;
+}
+.center .box .sline{
+    height: 2540px;
+    width: 2px;
+    background-color: #E5E5E5;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -1px;
+    z-index: 997;
+}
+.center .box .sline a{
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: -9px;
+    top: 0;
+    background-color: #E5E5E5;
+    border-radius: 50%;
+    z-index: 998;
+}
+.center ol{
+    position: absolute;
+
+    top: 0;
+    z-index: 999;
+    height: 140px;
+    width: 50%;
+    
+}
+.center .ol1{
+    left: 0;
+}
+.center .ol2{
+    right: 0;
+}
+.center ol li{
+    width: 560px;
+    height: 140px;
+    margin-top: 60px;
+}
+.center ol li .img{
+    width: 230px;
+    height: 140px;
+    border-radius: 8px;
+}
+.center ol li .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.center ol li .text{
+    width: 230px;
+    height: 140px;
+    line-height: 140px;
+    font-size: 16px;
+    margin: 0 12px;
+}
+
+.center .ol1 li{
+    margin-top: 100px;
+    float: right;
+}
+.center .ol1 li:first-child{
+    margin-top: 180px;
+}
+.center .ol1 li .img{
+    float: left;
+}
+.center .ol1 li .text{
+    float: right;
+}
+
+
+.center .ol2 li{
+    margin-top: 100px;
+    float: left;
+    margin-left: 28px;
+}
+.center .ol2 li:first-child{
+    margin-top: 60px;
+}
+.center .ol2 li .img{
+    float: right;
+}
+.center .ol2 li .text{
+    float: left;
+}

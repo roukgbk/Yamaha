@@ -1,0 +1,142 @@
+@charset "utf-8";
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.header .head .logo{
+    padding: 35px 0 35px 0;
+}
+.header .head .Head_ul{
+    padding: 42px 0 37px 277px;
+}
+.header .head .Head_ul a{
+    font-size: 16px;
+    font-family: '微软雅黑';
+    color: white;
+}
+.header .head .Head_ul .Head_li{
+    margin-right:45px;
+}
+.header .head .Head_ul .Head_l2{
+    margin-right:57px;
+}
+.header .head span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    color: white;
+    padding: 40px 0 36px 0;
+}
+.header .head .Head_ul .active a{
+    color: red;
+}
+.D_top{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    background-color: #F5F5F5;
+}
+.D_top .D_ul .active a{
+    color: #FC8C8C;
+}
+.D_top .D_ul li a{
+    font-size: 16px;
+    font-family: '微软雅黑';
+    color: black;
+}
+.D_top .D_span{
+    color: #cccccc;
+    margin: 0 50px 0 40px;
+}
+.D_top .D_ul .D_l1{
+    margin-right: 50px;
+}
+/* 新闻 */
+.C_top{
+    margin: 20px 0 38px 0;
+}
+.C_top a{
+    font-size: 16px;
+    font-family: '微软雅黑';
+    color: #666666;
+}
+.C_top .C_span{
+    color: #cccccc;
+    margin: 0 15px 0 21px;
+}
+.C_top .Ctop_p1 a{
+    font-size: 16px;
+    font-family: '微软雅黑';
+    font-weight: bold;
+    color: black;
+}
+/* 内容 */
+.CN_top .CN_h4{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 65px;
+}
+.CN_top .CN_p1{
+    width: 800px;
+    height: 56px;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.CN_top .CN_img{
+    text-align: center;
+    margin-bottom: 43px;
+}
+.CN_top .CN_img2{
+    text-align: center;
+    margin-bottom: 104px;
+}
+/* 底部图logo */
+.D_dibu{
+    width: 100%;
+    height: 80px;
+    background-color: #EEEEEE;
+}
+.D_dibu .Ddb_img{
+    margin: 15px 0 17px 0;
+    text-align: center;
+}
+/* 底部 footer */
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    font-family: '微软雅黑';
+}
+.F_chanpin {
+    height: 357px;
+    padding-left: 24px;
+    padding-top: 72px;
+}
+.F_chanpin ul li h5{
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.F_chanpin ul li a{
+    line-height: 30px;
+    color: white;
+    font-size: 12px;
+}
+.F_chanpin ul .l5{
+    margin-left: 274px;
+}
+.F_chanpin ul .l6{
+    margin-left: 271px;
+}
+.F_chanpin ul .l7{
+    margin-left: 207px;
+}
+.footer .F_ban{
+    padding-left: 24px;
+    color: #5C5C5C;
+}

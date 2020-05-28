@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻活动-详情</title>
+    <link rel="stylesheet" href="css/xinwen_xiangqing.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="font/iconfont3.css">
+    <script src="js/jquery-1.8.3.js"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="btop">
+        <div class="top_nav gWidth clearfix">
+            <div class="logo fl"><img src="img/logo.png" alt=""></div>
+            <ul class="fl" id="nav_ul">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="chanpin.html">产品<span class="iconfont icon-open"></span></a></li>
+                <li class="active"><a href="xinwenhuodong.html">新闻活动</a></li>
+                <li><a href="###">会员系统</a></li>
+                <li><a href="yamaha.html">关于雅马哈</a></li>
+            </ul>
+            <input type="text" class="select fl">
+            <div class="Product fl" id="Product">
+                <ol class="clearfix">
+                    <li><a href="chanpinxiangxi.html">钢琴</a></li>
+                    <li><a href="chanpinxiangxi.html">吉他</a></li>
+                    <li><a href="chanpinxiangxi.html">管乐器</a></li>
+                    <li><a href="chanpinxiangxi.html">电钢琴</a></li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            var nav_ul = document.getElementById("nav_ul");
+            var nav_ul_li = nav_ul.getElementsByTagName("li");
+            var Product = document.getElementById("Product");
+            for (i = 0; i < nav_ul_li.length; i++) {
+                nav_ul_li[i].onmouseover = function () {
+                    for (i = 0; i < nav_ul_li.length; i++) {
+                        nav_ul_li[i].className = "";
+                    }
+                    this.className = "active";
+                    if (this == nav_ul_li[1]) {
+                        Product.style.display = "block";
+                    } else {
+                        Product.style.display = "none";
+                    }
+                }
+            }
+            Product.onmouseleave = function () {
+                this.style.display = "none";
+            }
+        </script>
+    </div>
+    <!-- 导航 -->
+    <div class="D_top clearfix">
+        <div class="gWidth clearfix">
+            <ul class="D_ul fl">
+                <li class="D_li fl">
+                    <a href="###">新闻活动</a>
+                </li>
+                <span class="D_span fl">|</span>
+                <li class="D_l1 fl active">
+                    <a href="###">近期活动</a>
+                </li>
+                <li class="D_l1 fl">
+                    <a href="###">活动报道</a>
+                </li>
+                <li class="D_li fl">
+                    <a href="###">产品咨讯</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 新闻 -->
+    <div class="C_top gWidth clearfix">
+        <p class="fl">
+            <a href="###">新闻活动</a>
+        </p>
+        <span class="C_span fl">&#9658;</span>
+        <p class="fl">
+            <a href="###">近期活动</a>
+        </p>
+        <span class="C_span fl">&#9658;</span>
+        <p class="fl Ctop_p1">
+            <a href="###">活动详情</a>
+        </p>
+    </div>
+    <!-- 内容 -->
+    <div class="CN_top gWidth clearfix">
+        <h4 class="CN_h4">
+            雅马哈电子键盘大赛全国总决赛9月决战川音
+        </h4>
+        <p class="CN_p1 gWidth2">
+            第三届雅马哈全国电子键盘大赛历经长达半年多的选拔,即将迎来最终赛段。大赛总决赛将于今年9月中秋期间在四川音乐学院隆重举行,电子琴、电钢琴、双排键共19个组别的300多名选手,将打响全国冠军争夺战
+        </p>
+        <div class="CN_img">
+            <img src="img/xinwen_xq1.png" alt="">
+        </div>
+        <!-- 第二个 -->
+        <h4 class="CN_h4">
+            雅马哈电子键盘大赛全国总决赛9月决战川音
+        </h4>
+        <p class="CN_p1 gWidth2">
+            第三届雅马哈全国电子键盘大赛历经长达半年多的选拔,即将迎来最终赛段。大赛总决赛将于今年9月中秋期间在四川音乐学院隆重举行,电子琴、电钢琴、双排键共19个组别的300多名选手,将打响全国冠军争夺战
+        </p>
+        <div class="CN_img2">
+            <img src="img/xinwen_xq2.png" alt="">
+        </div>
+        <!-- 完 -->
+    </div>
+
+    <!-- 底部图logo -->
+    <div class="D_dibu fl clearfix">
+        <div class="Ddb_img">
+            <img src="img/C_dibu1.png" alt="">
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer fl">
+        <div class="F_chanpin gWidth">
+            <ul>
+                <li class="fl">
+                    <h5>产品</h5>
+                    <a href="###">钢琴</a>
+                    <br>
+                    <a href="###">电子键盘</a>
+                    <br>
+                    <a href="###">吉他</a>
+                    <br>
+                    <a href="###">爵士鼓</a>
+                    <br>
+                    <a href="###">管乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                    <a href="###">打击乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                </li>
+                <li class="fl l5">
+                    <h5>音乐服务</h5>
+                    <a href="###"></a><a href="###">电子键盘</a>
+                    <br>
+                    <a href="###"></a><a href="###">吉他</a>
+                    <br>
+                    <a href="###"></a><a href="###">爵士鼓</a>
+                    <br>
+                    <br><br>
+                    <h5>新闻活动</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+                <li class="fl l6">
+                    <h5>客户服务</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                    <a href="###"></a><a href="###">维修站查询</a>
+                    <br>
+                    <a href="###"></a><a href="###">下载与支持</a>
+                    <br>
+                </li>
+                <li class="fl l7">
+                    <h5>关于我们</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+            </ul>
+        </div>
+
+        <p class="F_ban gWidth">Copyright diandongmark com019.Al1 Rights Reserved备案号冀ICP备16018121号-4</p>
+        <!-- 底部完 -->
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+    <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+    <title>关于我们</title>
+    <link rel="stylesheet" href="css/guanyuwomen.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="font/iconfont2.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+    <div class="btop">
+        <div class="top_nav gWidth clearfix">
+            <div class="logo fl"><img src="img/logo.png" alt=""></div>
+            <ul class="fl" id="nav_ul">
+                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="chanpin.html">产品<span class="iconfont icon-open"></span></a></li>
+                <li><a href="xinwenhuodong.html">新闻活动</a></li>
+                <li><a href="###">会员系统</a></li>
+                <li><a href="yamaha.html">关于雅马哈</a></li>
+            </ul>
+            <input type="text" class="select fl" id="select">
+            <script>
+                var sel = document.getElementById("select");
+                sel.onkeydown = function () {
+                    if (event.keyCode == 13) {
+                        location.href = "Searchproduct.html";
+                    }
+                }
+
+            </script>
+            <div class="Product fl" id="Product">
+                <ol class="clearfix">
+                    <li><a href="chanpinxiangxi.html">钢琴</a></li>
+                    <li><a href="chanpinxiangxi.html">吉他</a></li>
+                    <li><a href="chanpinxiangxi.html">管乐器</a></li>
+                    <li><a href="chanpinxiangxi.html">电钢琴</a></li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            var nav_ul = document.getElementById("nav_ul");
+            var nav_ul_li = nav_ul.getElementsByTagName("li");
+            var Product = document.getElementById("Product");
+            for (i = 0; i < nav_ul_li.length; i++) {
+                nav_ul_li[i].onmouseover = function () {
+                    for (i = 0; i < nav_ul_li.length; i++) {
+                        nav_ul_li[i].className = "";
+                    }
+                    this.className = "active";
+                    if (this == nav_ul_li[1]) {
+                        Product.style.display = "block";
+                    } else {
+                        Product.style.display = "none";
+                    }
+                }
+            }
+            Product.onmouseleave = function () {
+                this.style.display = "none";
+            }
+        </script>
+    </div>
+    <div class="body clearfix fl">
+        <div class="banner">
+            <img src="img/guanyu_banner.png" alt="">
+        </div>
+        <ul class="sidebar gWidth clearfix">
+            <li><a href="index.html">首页</a></li>
+            <li class="iconfont" style="font-size: 22px;">&#xe614;</li>
+            <li>
+                <h4 style="color: black;">关于我们</h4>
+            </li>
+        </ul>
+        <div class="content gWidth clearfix">
+            <div class="guanyu fl">
+                <img src="img/guanyu_guanyu.png" alt="">
+                <p>石家庄雅观乐器销售有限公司（简称雅观琴行）是雅马哈乐器音响（中国）投资有限公司授权的河北省雅马哈乐器核心经销商，经营雅马哈钢琴、管乐器、电子琴、电钢琴、吉他等全系列产品。</p>
+                <p>雅观琴行从成立伊始历经变迁，秉承“诚于心，信于行”的经营理念，把“尊重客户、以人为本、满足客户需求”为己任，坚持经营世界先进品牌、为客户提供优质服务为目标。</p>
+                <p>
+                    琴行在石家庄已新建雅马哈乐器专卖店、雅马哈钢琴体验店两家店面，共拥有750平米的卖场和三角钢琴沙龙，以及为广大爱乐师生们提供小型演出的音乐厅和HybridPiano专区。Hybrid
+                    Piano专区多彩的自动演奏系统带来精彩的视听享受盛宴，雅马哈自动演奏钢琴disklavier
+                    ENSPIRE除J家庭娱乐使用，主要应用于远程钢琴教育、远程音乐会、远程大师班、、合唱伴奏、中小学音乐课伴奏等等。雅马哈音乐厅可容纳一百二十人，音效声场良好，光线柔和明亮，使得热爱音乐、喜欢音乐的老师同学可以举办小型音乐会。
+                    <br>
+                    雅观琴行已拥有专职调律师3名，包括已通过雅马哈技术认定考核的调律师，满足客户服务的高标准需求!
+                    <br>
+                    琴行坚持社会音乐普及事业的推广,
+                    携手雅马哈公司,在石家庄高校设立雅马哈音乐奖学金的同时,每年还将定期邀请高水平的海内外雅马哈艺术家,举办大师班、音乐会等活动。并在周末、不定期举办各类小型音乐会等活动，为当地的音乐爱好者搭建高水平的音乐学习交流平台，帮助他们实现音乐家的梦想!
+                </p>
+            </div>
+            <div class="lianxi fl">
+                <img src="img/gaunyu_lianxi.png" alt="">
+                <p>石家庄雅观乐器销售有限公司</p>
+                <ul class="clearfix">
+                    <li><span class="iconfont">&#xe679;</span></li>
+                    <li>0311-89921013</li>
+                    <li>17733839835</li>
+                    <li>全国统一服务热线：400-791-8668</li>
+                </ul>
+                <ol class="clearfix">
+                    <li><span class="iconfont">&#xe65c;</span></li>
+                    <li>地址：石家庄市长安区建华北大街38号远东大厦底商雅马哈钢琴专卖店</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!--百度地图容器-->
+    <div class="map clearfix gWidth">
+        <div id="dituContent"></div>
+    </div>
+
+    <script type="text/javascript">
+        //创建和初始化地图函数：
+        function initMap() {
+            createMap();//创建地图
+            setMapEvent();//设置地图事件
+            addMapControl();//向地图添加控件
+        }
+
+        //创建地图函数：
+        function createMap() {
+            var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+            var point = new BMap.Point(114.547611, 38.042258);//定义一个中心点坐标
+            map.centerAndZoom(point, 18);//设定地图的中心点和坐标并将地图显示在地图容器中
+            window.map = map;//将map变量存储在全局
+        }
+
+        //地图事件设置函数：
+        function setMapEvent() {
+            map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+            map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+            map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+            map.enableKeyboard();//启用键盘上下左右键移动地图
+        }
+
+        //地图控件添加函数：
+        function addMapControl() {
+            //向地图中添加缩略图控件
+            var ctrl_ove = new BMap.OverviewMapControl({ anchor: BMAP_ANCHOR_BOTTOM_RIGHT, isOpen: 1 });
+            map.addControl(ctrl_ove);
+            //向地图中添加比例尺控件
+            var ctrl_sca = new BMap.ScaleControl({ anchor: BMAP_ANCHOR_BOTTOM_LEFT });
+            map.addControl(ctrl_sca);
+        }
+
+
+        initMap();//创建和初始化地图
+    </script>
+    <div class="footer fl">
+        <div class="F_chanpin gWidth">
+            <ul>
+                <li class="fl">
+                    <h5>产品</h5>
+                    <a href="###">钢琴</a>
+                    <br>
+                    <a href="###">电子键盘</a>
+                    <br>
+                    <a href="###">吉他</a>
+                    <br>
+                    <a href="###">爵士鼓</a>
+                    <br>
+                    <a href="###">管乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                    <a href="###">打击乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                </li>
+                <li class="fl l5">
+                    <h5>音乐服务</h5>
+                    <a href="###"></a><a href="###">电子键盘</a>
+                    <br>
+                    <a href="###"></a><a href="###">吉他</a>
+                    <br>
+                    <a href="###"></a><a href="###">爵士鼓</a>
+                    <br>
+                    <br><br>
+                    <h5>新闻活动</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+                <li class="fl l6">
+                    <h5>客户服务</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                    <a href="###"></a><a href="###">维修站查询</a>
+                    <br>
+                    <a href="###"></a><a href="###">下载与支持</a>
+                    <br>
+                </li>
+                <li class="fl l7">
+                    <h5>关于我们</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+            </ul>
+        </div>
+
+        <p class="F_ban gWidth">Copyright diandongmark com019.Al1 Rights Reserved备案号冀ICP备16018121号-4</p>
+        <!-- 底部完 -->
+    </div>
+</body>
+
+</html>

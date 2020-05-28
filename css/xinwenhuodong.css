@@ -1,0 +1,166 @@
+@charset "utf-8";
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.header .head .logo{
+    padding: 35px 0 35px 0;
+}
+.header .head .Head_ul{
+    padding: 42px 0 37px 277px;
+}
+.header .head .Head_ul a{
+    font-size: 16px;
+    font-family: '微软雅黑';
+    color: white;
+}
+.header .head .Head_ul .Head_li{
+    margin-right:45px;
+}
+.header .head .Head_ul .Head_l2{
+    margin-right:57px;
+}
+.header .head span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    color: white;
+    padding: 40px 0 36px 0;
+}
+.header .head .Head_ul .active a{
+    color: red;
+}
+.D_top{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    background-color: #F5F5F5;
+}
+.D_top .D_ul .active a{
+    color: #FF6666;
+}
+.D_top .D_ul li a{
+    font-size: 16px;
+    font-family: '微软雅黑';
+    color: black;
+}
+.D_top .D_span{
+    color: #cccccc;
+    margin: 0 50px 0 40px;
+}
+.D_top .D_ul .D_l1{
+    margin-right: 50px;
+}
+/* 新闻 */
+.C_top{
+    margin: 20px 0 38px 0;
+}
+.C_top a{
+    font-size: 16px;
+    font-family: '微软雅黑';
+    color: black;
+}
+.C_top .C_span{
+    color: #cccccc;
+    margin: 0 15px 0 21px;
+}
+.C_jq h3{
+    font-size: 28px;
+    font-family: '微软雅黑';
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+/* 内容 */
+.center{
+    width: 100%;
+    height: 936px;
+}
+.Cen_XW{
+    width: 100%;
+    height: 190px;
+    margin-bottom: 59px;
+}
+.Cen_XW .img{
+    float: left;
+}
+.Cen_XW .C_p{
+    width: 900px;
+    height: 125px;
+    margin-left: 21px; 
+}
+.Cen_XW .C_p1{
+    font-size: 24px;
+    font-family: '微软雅黑';
+    margin: 19px 0 43px 0;
+}
+.Cen_XW .C_p2{
+    line-height: 40px;
+    font-size: 18px;
+}
+/* 更多 */
+.center .C_gd{
+    width: 805px;
+    height: 47px;
+    margin: 111px auto 0;
+}
+.center .C_gd .Cgd_ul .Cgd_li{
+    height: 47px;
+    line-height: 47px;
+    padding: 0 17px 0 17px;
+    border: 1px solid #DFDFDF;
+    margin-left: -1px;
+}
+.center .C_gd .Cgd_ul .active{
+    background-color: #334158;
+    color: white;
+}
+/* 底部图logo */
+.D_dibu{
+    width: 100%;
+    height: 80px;
+    background-color: #EEEEEE;
+    margin-top: 135px;
+}
+.D_dibu .Ddb_img{
+    margin: 15px 0 17px 0;
+    text-align: center;
+}
+/* 底部 footer */
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    font-family: '微软雅黑';
+}
+.F_chanpin {
+    height: 357px;
+    padding-left: 24px;
+    padding-top: 72px;
+}
+.F_chanpin ul li h5{
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.F_chanpin ul li a{
+    line-height: 30px;
+    color: white;
+    font-size: 12px;
+}
+.F_chanpin ul .l5{
+    margin-left: 274px;
+}
+.F_chanpin ul .l6{
+    margin-left: 271px;
+}
+.F_chanpin ul .l7{
+    margin-left: 207px;
+}
+.footer .F_ban{
+    padding-left: 24px;
+    color: #5C5C5C;
+}

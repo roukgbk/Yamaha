@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/About-jtgk.css">
+    <title>关于雅马哈</title>
+
+</head>
+
+<body>
+    <!-- 首页>关于雅马哈>雅马哈集团 -->
+    <div class="btop">
+        <div class="top_nav gWidth clearfix">
+            <div class="logo fl"><img src="img/logo.png" alt=""></div>
+            <ul class="fl" id="nav_ul">
+                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="chanpin.html">产品<span class="iconfont icon-open"></span></a></li>
+                <li><a href="xinwenhuodong.html">新闻活动</a></li>
+                <li><a href="###">会员系统</a></li>
+                <li><a href="yamaha.html">关于雅马哈</a></li>
+            </ul>
+            <input type="text" class="select fl" id="select">
+            <script>
+                var sel = document.getElementById("select");
+                    sel.onkeydown = function(){
+                        if(event.keyCode == 13){
+                            location.href = "Searchproduct.html";
+                        }
+                    }
+                
+            </script>
+            <div class="Product fl" id="Product">
+                <ol class="clearfix">
+                    <li><a href="chanpinxiangxi.html">钢琴</a></li>
+                    <li><a href="chanpinxiangxi.html">吉他</a></li>
+                    <li><a href="chanpinxiangxi.html">管乐器</a></li>
+                    <li><a href="chanpinxiangxi.html">电钢琴</a></li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            var nav_ul = document.getElementById("nav_ul");
+            var nav_ul_li = nav_ul.getElementsByTagName("li");
+            var Product = document.getElementById("Product");
+            for(i=0;i<nav_ul_li.length;i++){
+                nav_ul_li[i].onmouseover = function(){
+                    for(i=0;i<nav_ul_li.length;i++){
+                        nav_ul_li[i].className = "";
+                    }
+                    this.className = "active";
+                    if(this==nav_ul_li[1]){
+                        Product.style.display = "block";
+                    }else{
+                        Product.style.display = "none";
+                    }
+                }
+            }
+            Product.onmouseleave = function(){
+                this.style.display = "none";
+            }
+        </script>
+    </div>
+    <div class="container-top gWidth clearfix">
+        <ol>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于雅马哈</a></li>
+            <li><a href="#">雅马哈集团</a></li>
+        </ol>
+    </div>
+    <!-- 集团概况 -->
+    <div class="container-h1 gWidth clearfix">
+        <h1 id="h1">集团概况</h1>
+    </div>
+    <!-- 选项卡 -->
+    <div class="container-Tab gWidth clearfix">
+        <ul id="tab-ul">
+            <li class="active"><span></span><a href="About-jtgk.html">集团概况</a></li>
+            <li><span></span><a href="About-event.html">企业大事记</a></li>
+            <li><span></span><a href="About-ppwh.html">品牌文化</a></li>
+            <li><span></span><a href="About-develop.html">产品发展史</a></li>
+        </ul>
+    </div>
+    <!-- 内容 -->
+    <div class="container-body gWidth clearfix">
+        <div class="left">
+            <img src="img/jtgk.png" alt="">
+        </div>
+        <p class="wenzhang">雅马哈公司是在1887年成立,具有悠久历史的公司。雅马哈通过全世界范围的销售公司,在世界市场占有稳固的位置。<br><br><br>
+            一百多年前 , -个叫山叶寅楠的年轻企业家着手制作高品质的簧管风琴并创建了雅马哈公司。不久,公司不仅生产出日本台钢琴,同时得到了海外的认可。1904年 ,雅马哈钢琴和风琴在圣路易世界博览会上荣获荣誉大奖。<br/><br><br>
+            基于良好的开端,雅马哈公司逐渐发展成为全球广受欢迎的乐器制造商。随着公司的发展,雅马哈公司凭借其一-直秉承的前沿技术和精湛的工艺,在更广范围内的产品和服务领域进行多元化投资。<br><br><br>
+            如今,雅马哈在乐器、视听产品、信息技术、新媒体业务、家具、汽车配件、特种金属、音乐教育以及度假村等商业领域一直处于地位。然而,正如我们的音乐起源一样,无论我们从事什么行业,也无论我们在哪个,我们始终追求公共价值的完美协调,正是这些形成了雅马哈世界。
+        </p>
+    </div>
+    <!-- 底部 -->
+    <div class="footer fl">
+        <div class="F_chanpin gWidth">
+            <ul>
+                <li class="fl">
+                    <h5>产品</h5>
+                    <a href="###">钢琴</a>
+                    <br>
+                    <a href="###">电子键盘</a>
+                    <br>
+                    <a href="###">吉他</a>
+                    <br>
+                    <a href="###">爵士鼓</a>
+                    <br>
+                    <a href="###">管乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                    <a href="###">打击乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                </li>
+                <li class="fl l5">
+                    <h5>音乐服务</h5>
+                    <a href="###"></a><a href="###">电子键盘</a>
+                    <br>
+                    <a href="###"></a><a href="###">吉他</a>
+                    <br>
+                    <a href="###"></a><a href="###">爵士鼓</a>
+                    <br>
+                    <br><br>
+                    <h5>新闻活动</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+                <li class="fl l6">
+                    <h5>客户服务</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                    <a href="###"></a><a href="###">维修站查询</a>
+                    <br>
+                    <a href="###"></a><a href="###">下载与支持</a>
+                    <br>
+                </li>
+                <li class="fl l7">
+                    <h5>关于我们</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+            </ul>
+        </div>
+
+        <p class="F_ban gWidth">Copyright diandongmark com019.Al1 Rights Reserved备案号冀ICP备16018121号-4</p>
+    <!-- 底部完 -->
+    </div>
+</body>
+
+</html>

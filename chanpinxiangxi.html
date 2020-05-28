@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>产品详细</title>
+    <link rel="icon" href="img/icon.jpg">
+    <link rel="stylesheet" href="css/chanpinxiangxi.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+</head>
+
+<body>
+    <div class="btop">
+        <div class="top_nav gWidth clearfix">
+            <div class="logo fl"><img src="img/logo.png" alt=""></div>
+            <ul class="fl" id="nav_ul">
+                <li><a href="index.html">首页</a></li>
+                <li class="active"><a href="chanpin.html">产品<span class="iconfont icon-open"></span></a></li>
+                <li><a href="xinwenhuodong.html">新闻活动</a></li>
+                <li><a href="###">会员系统</a></li>
+                <li><a href="yamaha.html">关于雅马哈</a></li>
+            </ul>
+            <input type="text" class="select fl">
+            <div class="Product fl" id="Product">
+                <ol class="clearfix">
+                    <li><a href="chanpinxiangxi.html">钢琴</a></li>
+                    <li><a href="chanpinxiangxi.html">吉他</a></li>
+                    <li><a href="chanpinxiangxi.html">管乐器</a></li>
+                    <li><a href="chanpinxiangxi.html">电钢琴</a></li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            var nav_ul = document.getElementById("nav_ul");
+            var nav_ul_li = nav_ul.getElementsByTagName("li");
+            var Product = document.getElementById("Product");
+            for (i = 0; i < nav_ul_li.length; i++) {
+                nav_ul_li[i].onmouseover = function () {
+                    for (i = 0; i < nav_ul_li.length; i++) {
+                        nav_ul_li[i].className = "";
+                    }
+                    this.className = "active";
+                    if (this == nav_ul_li[1]) {
+                        Product.style.display = "block";
+                    } else {
+                        Product.style.display = "none";
+                    }
+                }
+            }
+            Product.onmouseleave = function () {
+                this.style.display = "none";
+            }
+        </script>
+    </div>
+    <div class="xiangxi gWidth">
+        <p class="p1"><a href="" class="a1">产品</a><a href="chanpinliebiao.html" class="a1">乐器</a><span>产品详细</span></p>
+        <h3>概要</h3>
+        <div class="gaiyao clearfix">
+            <div class="zuo fl">
+                <img src="img/gaiyao.png" alt="">
+            </div>
+            <div class="you fl">
+                <h4>CFX系列</h4>
+                <p class="p3">建议零售价:1,600,000元</p>
+                <p class="p2">
+                    殿堂级音乐会三角钢琴CF系列旗舰产品CFX,拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。殿堂级音乐会三角钢琴CF系列旗舰产品CFX,拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。
+                </p>
+            </div>
+        </div>
+        <h3>规格</h3>
+        <div class="guige">
+            <ul class="clearfix">
+                <li class="li1">尺寸</li>
+                <li class="li2">
+                    <div>
+                        <p>宽</p>
+                        <p>高</p>
+                        <p>深</p>
+                    </div>
+                </li>
+                <li class="li3">160cm</li>
+                <li class="li3">275cm</li>
+                <li class="li3">160cm</li>
+                <li class="li4">重量</li>
+                <li class="li4">50KG</li>
+            </ul>
+        </div>
+        <h3>系列介绍</h3>
+        <div class="xilie">
+            <p>CF系列三角钢琴的理念思“美丽与力量”。“美丽”是来形容钢琴所表达出的音体和声台的丰富绚烂性，“力量”
+                指的是其的声调投影，CF系列具有为出任的音乐表现力，并且有足够的音调现场感，即使在大型音乐于里，在5整个交响乐团合作中，它的声音都是清晰可闻的就如同艺术家为了完成自我理想的演奏,将毕生的精力都奉献在钢琴上一样。雅马哈的历史，就是对钢琴这种乐器既抱有憧憬又被深深吸引:持续追求着理想之音的历史。不断超越自我，正是雅马冶的证明。以这份自豪制作出的音乐会三角钢琴，无疑是雅马冶历经一个世纪以上钢琴制造的集大成。唯有持续超越，才能持续存在。现在，我们看到了顶点。
+            </p>
+            <div class="zhao">
+                <div class="clearfix zhao_zhao">
+                    <div class="fl zhao1">
+                        <img src="img/zhao.png" alt="">
+                    </div>
+                    <div class="fl">
+                        <img src="img/zhao.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <p>CF系列三角钢琴的理念思“美丽与力量”。“美丽”是来形容钢琴所表达出的音体和声台的丰富绚烂性，“力量”
+                指的是其的声调投影，CF系列具有为出任的音乐表现力，并且有足够的音调现场感，即使在大型音乐于里，在5整个交响乐团合作中，它的声音都是清晰可闻的就如同艺术家为了完成自我理想的演奏,将毕生的精力都奉献在钢琴上一样。雅马哈的历史，就是对钢琴这种乐器既抱有憧憬又被深深吸引:持续追求着理想之音的历史。不断超越自我，正是雅马冶的证明。以这份自豪制作出的音乐会三角钢琴，无疑是雅马冶历经一个世纪以上钢琴制造的集大成。唯有持续超越，才能持续存在。现在，我们看到了顶点。
+            </p>
+        </div>
+    </div>
+    <div class="footer fl">
+        <div class="F_chanpin gWidth">
+            <ul>
+                <li class="fl">
+                    <h5>产品</h5>
+                    <a href="###">钢琴</a>
+                    <br>
+                    <a href="###">电子键盘</a>
+                    <br>
+                    <a href="###">吉他</a>
+                    <br>
+                    <a href="###">爵士鼓</a>
+                    <br>
+                    <a href="###">管乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                    <a href="###">打击乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                </li>
+                <li class="fl l5">
+                    <h5>音乐服务</h5>
+                    <a href="###"></a><a href="###">电子键盘</a>
+                    <br>
+                    <a href="###"></a><a href="###">吉他</a>
+                    <br>
+                    <a href="###"></a><a href="###">爵士鼓</a>
+                    <br>
+                    <br><br>
+                    <h5>新闻活动</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+                <li class="fl l6">
+                    <h5>客户服务</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                    <a href="###"></a><a href="###">维修站查询</a>
+                    <br>
+                    <a href="###"></a><a href="###">下载与支持</a>
+                    <br>
+                </li>
+                <li class="fl l7">
+                    <h5>关于我们</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+            </ul>
+        </div>
+
+        <p class="F_ban gWidth">Copyright diandongmark com019.Al1 Rights Reserved备案号冀ICP备16018121号-4</p>
+        <!-- 底部完 -->
+    </div>
+</body>
+
+</html>

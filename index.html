@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body style="overflow-x: hidden;">
+    <div class="btop">
+        <div class="top_nav gWidth clearfix">
+            <div class="logo fl"><img src="img/logo.png" alt=""></div>
+            <ul class="fl" id="nav_ul">
+                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="chanpin.html">产品<span class="iconfont icon-open"></span></a></li>
+                <li><a href="xinwenhuodong.html">新闻活动</a></li>
+                <li><a href="###">会员系统</a></li>
+                <li><a href="yamaha.html">关于雅马哈</a></li>
+            </ul>
+            <input type="text" class="select fl" id="select">
+            <script>
+                var sel = document.getElementById("select");
+                sel.onkeydown = function () {
+                    if (event.keyCode == 13) {
+                        location.href = "Searchproduct.html";
+                    }
+                }
+
+            </script>
+            <div class="Product fl" id="Product">
+                <ol class="clearfix">
+                    <li><a href="chanpinxiangxi.html">钢琴</a></li>
+                    <li><a href="chanpinxiangxi.html">吉他</a></li>
+                    <li><a href="chanpinxiangxi.html">管乐器</a></li>
+                    <li><a href="chanpinxiangxi.html">电钢琴</a></li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            var nav_ul = document.getElementById("nav_ul");
+            var nav_ul_li = nav_ul.getElementsByTagName("li");
+            var Product = document.getElementById("Product");
+            for (i = 0; i < nav_ul_li.length; i++) {
+                nav_ul_li[i].onmouseover = function () {
+                    for (i = 0; i < nav_ul_li.length; i++) {
+                        nav_ul_li[i].className = "";
+                    }
+                    this.className = "active";
+                    if (this == nav_ul_li[1]) {
+                        Product.style.display = "block";
+                    } else {
+                        Product.style.display = "none";
+                    }
+                }
+            }
+            Product.onmouseleave = function () {
+                this.style.display = "none";
+            }
+        </script>
+    </div>
+
+    <div class="bbanner">
+        <img src="img/bbanner.png" alt="">
+    </div>
+    <div class="cen1 gWidth">
+        <div class="title">
+            <h4>PRODUCT</h4>
+            <div class="line"></div>
+            <h5>产品</h5>
+        </div>
+        <div class="c1_c clearfix">
+            <div class="ce_le fl">
+                <ul class="clearfix">
+                    <li>
+                        <ol class="c1_o" id="c1_o1">
+                            <li>
+                                <a href="###">
+                                    <div class="img"><img src="img/ce1_img1.png" alt=""></div>
+                                    <p>钢琴</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="###">
+                                    <div class="img"><img src="img/ce1_img1.png" alt=""></div>
+                                    <p>吉他</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="###">
+                                    <div class="img"><img src="img/ce1_img1.png" alt=""></div>
+                                    <p>钢琴</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="###">
+                                    <div class="img"><img src="img/ce1_img1.png" alt=""></div>
+                                    <p>吉他</p>
+                                </a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol class="c1_o" id="c1_o2">
+                            <li>
+                                <a href="###">
+                                    <div class="img"><img src="img/ce1_img1.png" alt=""></div>
+                                    <p>钢琴</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="###">
+                                    <div class="img"><img src="img/ce1_img1.png" alt=""></div>
+                                    <p>吉他</p>
+                                </a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol class="c1_o" id="c1_o3">
+                            <li>
+                                <a href="###">
+                                    <div class="img"><img src="img/ce1_img1.png" alt=""></div>
+                                    <p>钢琴</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="###">
+                                    <div class="img"><img src="img/ce1_img1.png" alt=""></div>
+                                    <p>吉他</p>
+                                </a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol class="c1_o" id="c1_o4">
+                            <li>
+                                <a href="###">
+                                    <div class="img"><img src="img/ce1_img1.png" alt=""></div>
+                                    <p>钢琴</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="###">
+                                    <div class="img"><img src="img/ce1_img1.png" alt=""></div>
+                                    <p>吉他</p>
+                                </a>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+            <div class="ce_ri fl">
+                <p>切换可查看更多乐器</p>
+                <div>
+                    <a href="###" class="iconfont icon-left" id="ce1_back"></a>
+                    <a href="###" class="iconfont icon-right" id="ce1_next"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cen2">
+        <div class="title">
+            <h4>RECOMMEND</h4>
+            <div class="line"></div>
+            <h5>重点推荐</h5>
+        </div>
+        <ul class="gWidth clearfix">
+            <li class="fl">
+                <div class="img"><img src="img/ce2_img1.png" alt=""></div>
+                <div class="text">
+                    <h6>会员系统</h6>
+                    <p><a href="###">进册雅马哈会员，申请调律、维修、保养服务，订阅会员周刊</a></p>
+                </div>
+            </li>
+            <li class="fr">
+                <div class="img"><img src="img/ce2_img1.png" alt=""></div>
+                <div class="text">
+                    <h6>关于我们</h6>
+                    <p><a href="guanyuwomen.html">进册雅马哈会员，申请调律、维修、保养服务，订阅会员周刊</a></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="cen25">
+        <img src="img/ce25.png" alt="">
+    </div>
+
+    <div class="cen3">
+        <div class="title">
+            <h4>ACTIVITIES</h4>
+            <div class="line"></div>
+            <h5>新闻活动</h5>
+        </div>
+        <ul class="gWidth">
+            <li>
+                <div class="img">
+                    <img src="img/ce3_img1.png" alt="">
+                </div>
+                <div class="text">
+                    <h6>教育家崔岚带你看一场德国艺术歌曲之旅</h6>
+                    <p>受卡尔斯鲁厄音乐学院院长Hartmut Holl与基尔歌剧院艺术总监Reinhard
+                        Linden的邀请，上音艺术歌曲访问团在周正教授的带领下,前往卡尔斯鲁厄音乐学院与基尔歌剧院两地,参演了"Apropos China中国音乐节”。</p>
+                </div>
+            </li>
+            <li>
+                <div class="img">
+                    <img src="img/ce3_img1.png" alt="">
+                </div>
+                <div class="text">
+                    <h6>教育家崔岚带你看一场德国艺术歌曲之旅</h6>
+                    <p>受卡尔斯鲁厄音乐学院院长Hartmut Holl与基尔歌剧院艺术总监Reinhard
+                        Linden的邀请，上音艺术歌曲访问团在周正教授的带领下,前往卡尔斯鲁厄音乐学院与基尔歌剧院两地,参演了"Apropos China中国音乐节”。</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="more">
+        <a href="xinwenhuodong.html">更多</a>
+    </div>
+
+    <div class="goback">
+        <a href="###" class="iconfont icon-up" id="to_top"></a>
+    </div>
+
+    <div class="link">
+        <ul id="ulq">
+            <li><img src="img/logo1.png" alt=""></li>
+            <li><img src="img/logo1.png" alt=""></li>
+            <li><img src="img/logo1.png" alt=""></li>
+            <li><img src="img/logo1.png" alt=""></li>
+        </ul>
+        <script>
+            var ulq = document.getElementById("ulq");
+            var liq = ulq.getElementsByTagName("li");
+            var q = 0;
+            for (i = 0; i < liq.length; i++) {
+                q += liq[i].offsetWidth;
+            }
+            ulq.style.width = q + 4 + "px";
+        </script>
+    </div>
+
+    <div class="bbottom">
+        <div class="gWidth">
+            <ul class="clearfix">
+                <li>
+                    <ol>
+                        <li><a href="###">产品</a></li>
+                        <li><a href="###">钢琴</a></li>
+                        <li><a href="###">吉他</a></li>
+                        <li><a href="###">管乐器</a></li>
+                        <li><a href="###">电钢琴</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="###">新闻活动</a></li>
+                        <li><a href="###">近期活动</a></li>
+                        <li><a href="###">活动报道</a></li>
+                        <li><a href="###">产品资讯</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="###">会员系统</a></li>
+                        <li><a href="###">产品详情</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="###">关于雅马哈</a></li>
+                        <li><a href="###">雅马哈集团</a></li>
+                        <li><a href="###">雅马哈中国</a></li>
+                        <li><a href="###">关于雅观</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <p>©Copyright diandongmark.com2019.All Rights Reserved备案号冀ICP备16018121号-4.</p>
+        </div>
+    </div>
+</body>
+
+</html>

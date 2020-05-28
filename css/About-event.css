@@ -1,0 +1,108 @@
+/* 首页>关于雅马哈>雅马哈集团 */
+.container-top {
+    margin-top: 18px;
+}
+.container-top ol li {
+    position: relative;
+    float: left;
+    margin-right: 40px;
+}
+.container-top ol li a {
+    color: #666666;
+    font-size: 14px;
+}   
+.container-top ol li a:hover {
+    text-decoration: underline;
+}
+.container-top ol li::after {
+    content: '';
+    border: 6px solid;
+    border-color: transparent transparent transparent #CCCCCC;
+    position: absolute;
+    top: 6px;
+    margin-left: 20px;
+}
+.container-top ol li:last-child::after {
+    display: none;
+}
+.container-top ol li:last-child a{
+    color: #000;
+}
+
+/* 企业大事记 */
+.container-h1 {
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+}
+.container-h1 h1 {
+    font-size: 28px;
+    font-weight: bold;
+}    
+
+/* 选项卡 */
+.container-Tab ul li {
+    float: left;
+    position: relative;
+}
+.container-Tab ul li a {
+    color: #000;
+    font-size: 14px;
+    margin-right: 110px;
+}
+.container-Tab ul li span {
+    position: absolute;
+    bottom: -22px;
+    left: 3px;
+    width: 50px;
+    height: 3px;
+    background-color: #4B1E78;
+    display: inline-block;
+    display: none;
+}
+.container-Tab ul .active span{
+    display: block;
+}
+.container-Tab ul li:nth-child(even) span {
+    left: 10px;
+}
+
+/* 内容 */
+.container-body {
+    border-top: 1px solid #d6d4d4;
+    margin-top: 22px;
+    padding-top: 40px;
+    margin-bottom: 140px;
+}
+.container-body ul {
+    box-sizing: border-box;
+    border-top: 2px solid #CCCCCC;
+}
+.container-body ul li span {
+    float: left;
+    width: 127px;
+    height: 35px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 35px;
+    border-bottom: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+    border-left: 2px solid #ECECEC;
+}
+.container-body ul li:first-child span{
+    background-color: #E1E1E1;
+}
+.container-body ul li p {
+    padding-left: 80px;
+    width: 997px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ECECEC;
+    border-right: 2px solid #ECECEC;
+}
+.container-body ul li:first-child p {
+    background-color: #e1e1e1;
+    padding-left: 390px;
+}

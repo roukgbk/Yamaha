@@ -1,0 +1,2175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/chanpin.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+</head>
+
+<body>
+    <div class="btop">
+        <div class="top_nav gWidth clearfix">
+            <div class="logo fl"><img src="img/logo.png" alt=""></div>
+            <ul class="fl" id="nav_ul">
+                <li><a href="index.html">首页</a></li>
+                <li class="active"><a href="chanpin.html">产品<span class="iconfont icon-open"></span></a></li>
+                <li><a href="xinwenhuodong.html">新闻活动</a></li>
+                <li><a href="###">会员系统</a></li>
+                <li><a href="yamaha.html">关于雅马哈</a></li>
+            </ul>
+            <input type="text" class="select fl" id="select">
+            <script>
+                var sel = document.getElementById("select");
+                sel.onkeydown = function () {
+                    if (event.keyCode == 13) {
+                        location.href = "Searchproduct.html";
+                    }
+                }
+
+            </script>
+            <div class="Product fl" id="Product">
+                <ol class="clearfix">
+                    <li><a href="chanpinxiangxi.html">钢琴</a></li>
+                    <li><a href="chanpinxiangxi.html">吉他</a></li>
+                    <li><a href="chanpinxiangxi.html">管乐器</a></li>
+                    <li><a href="chanpinxiangxi.html">电钢琴</a></li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            var nav_ul = document.getElementById("nav_ul");
+            var nav_ul_li = nav_ul.getElementsByTagName("li");
+            var Product = document.getElementById("Product");
+            for (i = 0; i < nav_ul_li.length; i++) {
+                nav_ul_li[i].onmouseover = function () {
+                    for (i = 0; i < nav_ul_li.length; i++) {
+                        nav_ul_li[i].className = "";
+                    }
+                    this.className = "active";
+                    if (this == nav_ul_li[1]) {
+                        Product.style.display = "block";
+                    } else {
+                        Product.style.display = "none";
+                    }
+                }
+            }
+            Product.onmouseleave = function () {
+                this.style.display = "none";
+            }
+        </script>
+    </div>
+    <div class="jieshao gWidth">
+        <p class="p1">产品<span>钢琴</span></p>
+        <h1>钢琴</h1>
+        <p class="p2">
+            雅马哈铜琴，历经130余年的时光打磨，致力为广大音乐爱好者打造高品质铜琴，范围涵盖初学者使用的入厂级别家用钢琴至大型音乐会三角演奏铜琴。雅马钢琴每一个部件都由雅马哈独立设计，雅马哈钢琴内部精密的组合技术体现了雅马哈长年经验积累的艺术及技术结晶，使每一架雅马哈钢琴都被赋予了非凡的生命。
+        </p>
+    </div>
+    <div class="chanpin gWidth">
+        <h1>产品目录</h1>
+        <ul class="ul clearfix" id="ul">
+            <li>
+                <h3 class="p1" id="h31">三角钢琴<span class="span1" id='span1'></span></h3>
+                <div class="xuan" id="div1">
+                    <p><a href="###">音乐会CF系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">音乐会SX系列</a></p>
+                    <p><a href="###">小型系列</a></p>
+                </div>
+            </li>
+            <li>
+                <h3 id="h32">立式钢琴<span class="span1" id='span2'></span></h3>
+                <div class="xuan" id="div2">
+                    <p><a href="###">音乐会CF系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">音乐会SX系列</a></p>
+                    <p><a href="###">小型系列</a></p>
+                </div>
+            </li>
+            <li>
+                <h3 id="h33">跨界钢琴<span class="span1" id='span3'></span></h3>
+                <div class="xuan" id="div3">
+                    <p><a href="###">音乐会CF系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">音乐会SX系列</a></p>
+                    <p><a href="###">小型系列</a></p>
+                </div>
+            </li>
+            <li>
+                <h3 id="h34">三角钢琴<span class="span1" id='span4'></span></h3>
+                <div class="xuan" id='div4'>
+                    <p><a href="###">音乐会CF系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">CX系列</a></p>
+                    <p><a href="###">音乐会SX系列</a></p>
+                    <p><a href="###">小型系列</a></p>
+                </div>
+            </li>
+        </ul>
+        <div class="xia">
+            <ul id="ul2" class="ul2 clearfix">
+                <li class="active">
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shang">
+                        <h3>乐器系类</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/gangqin.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>建议零售价:1,600,000</p>
+                                <p>殿堂级音乐会三角钢琴CF系列旗舰产品CFX，拥有着卓越的声音，其穿透力可使声音响彻在音乐厅的每一处角落。既是雅马哈钢琴的顶点，又是新的原点。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zhong">
+                        <h3>应用场合</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/yingyong.png" alt="">
+                                </div>
+                                <p>CFX系列</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xia1">
+                        <h3>特别推荐</h3>
+                        <div class="div1 clearfix">
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                            <div class="shang_div1">
+                                <div>
+                                    <img src="img/tuijian.png" alt="">
+                                </div>
+                                <p>雅马哈钢琴历史</p>
+                                <p>实现多彩的音色与广泛的动态范围，不断追求更丰实现多彩的音色与广泛的动态范围，不断追求更丰富的表现力</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer fl">
+        <div class="F_chanpin gWidth">
+            <ul>
+                <li class="fl">
+                    <h5>产品</h5>
+                    <a href="###">钢琴</a>
+                    <br>
+                    <a href="###">电子键盘</a>
+                    <br>
+                    <a href="###">吉他</a>
+                    <br>
+                    <a href="###">爵士鼓</a>
+                    <br>
+                    <a href="###">管乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                    <a href="###">打击乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                </li>
+                <li class="fl l5">
+                    <h5>音乐服务</h5>
+                    <a href="###"></a><a href="">电子键盘</a>
+                    <br>
+                    <a href="###"></a><a href="">吉他</a>
+                    <br>
+                    <a href="###"></a><a href="">爵士鼓</a>
+                    <br>
+                    <br><br>
+                    <h5>新闻活动</h5>
+                    <a href="###"></a><a href="">常见问题</a>
+                    <br>
+                </li>
+                <li class="fl l6">
+                    <h5>客户服务</h5>
+                    <a href="###"></a><a href="">常见问题</a>
+                    <br>
+                    <a href="###"></a><a href="">维修站查询</a>
+                    <br>
+                    <a href="###"></a><a href="">下载与支持</a>
+                    <br>
+                </li>
+                <li class="fl l7">
+                    <h5>关于我们</h5>
+                    <a href="###"></a><a href="">常见问题</a>
+                    <br>
+                </li>
+            </ul>
+        </div>
+        <p class="F_ban gWidth">Copyright diandongmark com019.Al1 Rights Reserved备案号冀ICP备16018121号-4</p>
+        <!-- 底部完 -->
+    </div>、
+</body>
+<script src="js/chanpin.js"></script>
+
+</html>

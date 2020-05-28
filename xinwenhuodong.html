@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻活动</title>
+    <link rel="stylesheet" href="css/xinwenhuodong.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="font/iconfont3.css">
+    <script src="js/jquery-1.8.3.js"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="btop">
+        <div class="top_nav gWidth clearfix">
+            <div class="logo fl"><img src="img/logo.png" alt=""></div>
+            <ul class="fl" id="nav_ul">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="chanpin.html">产品<span class="iconfont icon-open"></span></a></li>
+                <li class="active"><a href="xinwenhuodong.html">新闻活动</a></li>
+                <li><a href="###">会员系统</a></li>
+                <li><a href="yamaha.html">关于雅马哈</a></li>
+            </ul>
+            <input type="text" class="select fl">
+            <div class="Product fl" id="Product">
+                <ol class="clearfix">
+                    <li><a href="chanpinxiangxi.html">钢琴</a></li>
+                    <li><a href="chanpinxiangxi.html">吉他</a></li>
+                    <li><a href="chanpinxiangxi.html">管乐器</a></li>
+                    <li><a href="chanpinxiangxi.html">电钢琴</a></li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            var nav_ul = document.getElementById("nav_ul");
+            var nav_ul_li = nav_ul.getElementsByTagName("li");
+            var Product = document.getElementById("Product");
+            for (i = 0; i < nav_ul_li.length; i++) {
+                nav_ul_li[i].onmouseover = function () {
+                    for (i = 0; i < nav_ul_li.length; i++) {
+                        nav_ul_li[i].className = "";
+                    }
+                    this.className = "active";
+                    if (this == nav_ul_li[1]) {
+                        Product.style.display = "block";
+                    } else {
+                        Product.style.display = "none";
+                    }
+                }
+            }
+            Product.onmouseleave = function () {
+                this.style.display = "none";
+            }
+        </script>
+    </div>
+    <!-- 导航 -->
+    <div class="D_top clearfix">
+        <div class="gWidth clearfix">
+            <ul class="D_ul fl">
+                <li class="D_li fl">
+                    <a href="###">新闻活动</a>
+                </li>
+                <span class="D_span fl">|</span>
+                <li class="D_l1 fl active">
+                    <a href="###">近期活动</a>
+                </li>
+                <li class="D_l1 fl">
+                    <a href="###">活动报道</a>
+                </li>
+                <li class="D_li fl">
+                    <a href="###">产品咨讯</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 新闻 -->
+    <div class="C_top gWidth clearfix">
+        <p class="fl">
+            <a href="###">新闻活动</a>
+        </p>
+        <span class="C_span fl">&#9658;</span>
+        <p class="fl">
+            <a href="###">近期活动</a>
+        </p>
+    </div>
+    <!-- 近期活动 -->
+    <div class="C_jq gWidth">
+        <h3>近期活动</h3>
+    </div>
+    <!-- 内容 -->
+    <div class="center gWidth clearfix">
+        <!-- 第一个 -->
+        <div class="Cen_XW clearfix">
+            <div class="img">
+                <img src="img/C_XW1.png" alt="">
+            </div>
+            <div class="fl C_p clearfix">
+                <p class="fl C_p1 clearfix">
+                    教育家崔岚带你看一场德国艺术歌曲之旅
+                </p>
+                <p class="fl C_p2 clearfix">
+                    受卡尔斯鲁厄音乐学院浣KHartmut Holl与基尔歌剧院2术总监Reinhard
+                    Linden的邀清,上音艺术歌曲访问团在周正教授的带领下,前往卡尔斯鲁厄音乐学院与基尔歌剧院两地，参演了"Apropos China中国音乐节”。
+                </p>
+            </div>
+        </div>
+        <!-- 第二个 -->
+        <div class="Cen_XW clearfix">
+            <div class="img">
+                <img src="img/C_XW2.png" alt="">
+            </div>
+            <div class="fl C_p clearfix">
+                <p class="fl C_p1">
+                    教育家崔岚带你看一场德国艺术歌曲之旅
+                </p>
+                <p class="fl C_p2">
+                    受卡尔斯鲁厄音乐学院浣KHartmut Holl与基尔歌剧院2术总监Reinhard
+                    Linden的邀清,上音艺术歌曲访问团在周正教授的带领下,前往卡尔斯鲁厄音乐学院与基尔歌剧院两地，参演了"Apropos China中国音乐节”。
+                </p>
+            </div>
+        </div>
+        <!-- 第三个 -->
+        <div class="Cen_XW clearfix">
+            <div class="img">
+                <img src="img/C_XW2.png" alt="">
+            </div>
+            <div class="fl C_p clearfix">
+                <p class="fl C_p1">
+                    教育家崔岚带你看一场德国艺术歌曲之旅
+                </p>
+                <p class="fl C_p2">
+                    受卡尔斯鲁厄音乐学院浣KHartmut Holl与基尔歌剧院2术总 监Reinhard Linden的邀清,上音艺术歌曲访问团在周正教授 的带领下,前往卡尔斯鲁厄音乐学院与基尔歌剧院两地，参演
+                    了"Apropos China中国音乐节”。
+                </p>
+            </div>
+        </div>
+        <!-- 第四个 -->
+        <div class="Cen_XW clearfix">
+            <div class="img">
+                <img src="img/C_XW2.png" alt="">
+            </div>
+            <div class="fl C_p clearfix">
+                <p class="fl C_p1">
+                    教育家崔岚带你看一场德国艺术歌曲之旅
+                </p>
+                <p class="fl C_p2">
+                    受卡尔斯鲁厄音乐学院浣KHartmut Holl与基尔歌剧院2术总 监Reinhard Linden的邀清,上音艺术歌曲访问团在周正教授 的带领下,前往卡尔斯鲁厄音乐学院与基尔歌剧院两地，参演
+                    了"Apropos China中国音乐节”。
+                </p>
+            </div>
+        </div>
+        <!-- 完 -->
+        <!-- 更多 -->
+        <div class="C_gd clearfix">
+            <ul class="Cgd_ul clearfix">
+                <li class="fl Cgd_li">上一页</li>
+                <li class="fl Cgd_li active">1</li>
+                <li class="fl Cgd_li">2</li>
+                <li class="fl Cgd_li">3</li>
+                <li class="fl Cgd_li">4</li>
+                <li class="fl Cgd_li">5</li>
+                <li class="fl Cgd_li">6</li>
+                <li class="fl Cgd_li">7</li>
+                <li class="fl Cgd_li">8</li>
+                <li class="fl Cgd_li">9</li>
+                <li class="fl Cgd_li">...</li>
+                <li class="fl Cgd_li">188</li>
+                <li class="fl Cgd_li">189</li>
+                <li class="fl Cgd_li">下一页</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 底部图logo -->
+    <div class="D_dibu fl clearfix">
+        <div class="Ddb_img">
+            <img src="img/C_dibu1.png" alt="">
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer fl">
+        <div class="F_chanpin gWidth">
+            <ul>
+                <li class="fl">
+                    <h5>产品</h5>
+                    <a href="###">钢琴</a>
+                    <br>
+                    <a href="###">电子键盘</a>
+                    <br>
+                    <a href="###">吉他</a>
+                    <br>
+                    <a href="###">爵士鼓</a>
+                    <br>
+                    <a href="###">管乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                    <a href="###">打击乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                </li>
+                <li class="fl l5">
+                    <h5>音乐服务</h5>
+                    <a href="###"></a><a href="">电子键盘</a>
+                    <br>
+                    <a href="###"></a><a href="">吉他</a>
+                    <br>
+                    <a href="###"></a><a href="">爵士鼓</a>
+                    <br>
+                    <br><br>
+                    <h5>新闻活动</h5>
+                    <a href="###"></a><a href="">常见问题</a>
+                    <br>
+                </li>
+                <li class="fl l6">
+                    <h5>客户服务</h5>
+                    <a href="###"></a><a href="">常见问题</a>
+                    <br>
+                    <a href="###"></a><a href="">维修站查询</a>
+                    <br>
+                    <a href="###"></a><a href="">下载与支持</a>
+                    <br>
+                </li>
+                <li class="fl l7">
+                    <h5>关于我们</h5>
+                    <a href="###"></a><a href="">常见问题</a>
+                    <br>
+                </li>
+            </ul>
+        </div>
+        <p class="F_ban gWidth">Copyright diandongmark com019.Al1 Rights Reserved备案号冀ICP备16018121号-4</p>
+        <!-- 底部完 -->
+    </div>
+
+</body>
+
+</html>

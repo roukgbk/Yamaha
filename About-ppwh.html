@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/About-ppwh.css">
+    <title>关于雅马哈</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="btop">
+        <div class="top_nav gWidth clearfix">
+            <div class="logo fl"><img src="img/logo.png" alt=""></div>
+            <ul class="fl" id="nav_ul">
+                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="chanpin.html">产品<span class="iconfont icon-open"></span></a></li>
+                <li><a href="xinwenhuodong.html">新闻活动</a></li>
+                <li><a href="###">会员系统</a></li>
+                <li><a href="yamaha.html">关于雅马哈</a></li>
+            </ul>
+            <input type="text" class="select fl" id="select">
+            <script>
+                var sel = document.getElementById("select");
+                    sel.onkeydown = function(){
+                        if(event.keyCode == 13){
+                            location.href = "Searchproduct.html";
+                        }
+                    }
+                
+            </script>
+            <div class="Product fl" id="Product">
+                <ol class="clearfix">
+                    <li><a href="chanpinxiangxi.html">钢琴</a></li>
+                    <li><a href="chanpinxiangxi.html">吉他</a></li>
+                    <li><a href="chanpinxiangxi.html">管乐器</a></li>
+                    <li><a href="chanpinxiangxi.html">电钢琴</a></li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            var nav_ul = document.getElementById("nav_ul");
+            var nav_ul_li = nav_ul.getElementsByTagName("li");
+            var Product = document.getElementById("Product");
+            for(i=0;i<nav_ul_li.length;i++){
+                nav_ul_li[i].onmouseover = function(){
+                    for(i=0;i<nav_ul_li.length;i++){
+                        nav_ul_li[i].className = "";
+                    }
+                    this.className = "active";
+                    if(this==nav_ul_li[1]){
+                        Product.style.display = "block";
+                    }else{
+                        Product.style.display = "none";
+                    }
+                }
+            }
+            Product.onmouseleave = function(){
+                this.style.display = "none";
+            }
+        </script>
+    </div>
+    <!-- 首页>关于雅马哈>雅马哈集团 -->
+    <div class="container-top gWidth clearfix">
+        <ol>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于雅马哈</a></li>
+            <li><a href="#">雅马哈集团</a></li>
+        </ol>
+    </div>
+    <!-- 品牌文化 -->
+    <div class="container-h1 gWidth clearfix">
+        <h1 id="h1">品牌文化</h1>
+    </div>
+    <!-- 选项卡 -->
+    <div class="container-Tab gWidth clearfix">
+        <ul id="tab-ul">
+            <li><span></span><a href="About-jtgk.html">集团概况</a></li>
+            <li><span></span><a href="About-event.html">企业大事记</a></li>
+            <li class="active"><span></span><a href="#">品牌文化</a></li>
+            <li><span></span><a href="About-develop.html">产品发展史</a></li>
+        </ul>
+    </div>
+  
+    <!-- 内容 -->
+    <div class="container-body gWidth clearfix">
+       <img src="img/ppwh.png" alt="">
+       <p class="wen1">雅马哈的历史是从一台坏掉的风琴开始的。<br><br>
+
+        那是在1887年,被日本滨松寻常小学视为宝贝的美国产风琴突然不响了,受到修理委托的是当时身为医疗器械修理工的山叶寅楠。次看到风琴内部构造的寅楠
+        对这种乐器产生了兴趣,并萌发了自己亲手制造一台风琴的念头。<br><br>
+        
+        于是，他以修理中所观察到的构造为基础,与装潢工匠河合喜三郎-起制造出了一个又- 个的零件。经过63天的反复试验,日本台国产风琴终于诞生了。为了让
+        完成的风琴接受审查,两人用扁担扛着风琴徒步翻越过箱根岭,千里迢迢来到了东京的音乐调查所(现东京艺大)。但是,面对"风琴外形虽好,但调律不准,难以使
+        用”这样残酷的评价,两人很失望。"不能因为这 点挫折前功尽弃,让初的志愿彻底实现吧!”这样,寅楠留在了东京,以特别旁听生的身份在音乐调查所从零开始学
+        习音乐理论和调律方法。1个月的突击学习之后,寅楠回到了滨松,开始日以继夜地专心致力于风琴的制作,终于完成了第二号风琴。第二次的审查得到了”可以替
+        代进口风琴”的认定。
+        </p>
+        <div class="tuwen">  
+            <p class="wen2">
+                1889年,寅楠成立了合资公司山叶风琴制造所。8年后,日本乐器制造株式会社成立。翌年，确定“音叉”为社章、“衔着音叉的凤凰图” 为商标。在当时的
+                风琴上,都描绘着这幅凤凰图。<br><br>
+    
+                1899年,寅楠远渡美国视察钢琴工厂。 推进钢琴的国产化等很多举措都走在了时代的前列。寅楠先生的创业精神、远见卓识和办事果断的风格,正是这些奠定了雅马哈
+                品牌的基础。<br><br>
+    
+                ※左图:创始人山叶寅楠(1851-1916)※右图:山叶寅楠用扁担扛着风琴徒步翻越箱根岭
+            </p>
+            <img src="img/ppwh2.png" alt="" class="p2">
+        </div>
+        <img src="img/ppwh3.png" alt="" class="p3">
+        <p class="wen3">
+            雅马哈的Logo标志是雅马哈品牌的象征。<br>
+
+            紫色,历来都被视为高贵的颜色,给人以优雅和高品味的印象,因为与参与乐器和音乐的雅马哈事业相匹配,而被采用为企业色。作为雅 马哈的象征色,又被称作”雅马哈
+            紫罗兰色”。<br>
+
+            由创始人山叶寅楠的姓一山叶的英文字母 ,与音叉组合而成。3个音叉代表雅马哈的 三大部门--技术、 制造和销售之间的紧密合作,而以音叉所象征的音乐为中心向世
+            界(外圈)的延伸代表雅马哈永无止境的生命力。此外,这个标志也被赋予了音乐的基本元素:旋律、和谐与节奏相协调的意义。
+            
+        </p>
+        
+
+    </div>
+    <!-- 底部 -->
+    <div class="footer fl">
+        <div class="F_chanpin gWidth">
+            <ul>
+                <li class="fl">
+                    <h5>产品</h5>
+                    <a href="###">钢琴</a>
+                    <br>
+                    <a href="###">电子键盘</a>
+                    <br>
+                    <a href="###">吉他</a>
+                    <br>
+                    <a href="###">爵士鼓</a>
+                    <br>
+                    <a href="###">管乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                    <a href="###">打击乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                </li>
+                <li class="fl l5">
+                    <h5>音乐服务</h5>
+                    <a href="###"></a><a href="###">电子键盘</a>
+                    <br>
+                    <a href="###"></a><a href="###">吉他</a>
+                    <br>
+                    <a href="###"></a><a href="###">爵士鼓</a>
+                    <br>
+                    <br><br>
+                    <h5>新闻活动</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+                <li class="fl l6">
+                    <h5>客户服务</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                    <a href="###"></a><a href="###">维修站查询</a>
+                    <br>
+                    <a href="###"></a><a href="###">下载与支持</a>
+                    <br>
+                </li>
+                <li class="fl l7">
+                    <h5>关于我们</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+            </ul>
+        </div>
+
+        <p class="F_ban gWidth">Copyright diandongmark com019.Al1 Rights Reserved备案号冀ICP备16018121号-4</p>
+    <!-- 底部完 -->
+    </div>
+</body>
+
+</html>

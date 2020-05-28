@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/About-event.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <title>关于雅马哈</title>
+
+</head>
+
+<body>
+    <div class="btop">
+        <div class="top_nav gWidth clearfix">
+            <div class="logo fl"><img src="img/logo.png" alt=""></div>
+            <ul class="fl" id="nav_ul">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="chanpin.html">产品<span class="iconfont icon-open"></span></a></li>
+                <li><a href="xinwenhuodong.html">新闻活动</a></li>
+                <li><a href="###">会员系统</a></li>
+                <li class="active"><a href="yamaha.html">关于雅马哈</a></li>
+            </ul>
+            <input type="text" class="select fl" id="select">
+            <script>
+                var sel = document.getElementById("select");
+                    sel.onkeydown = function(){
+                        if(event.keyCode == 13){
+                            location.href = "Searchproduct.html";
+                        }
+                    }
+                
+            </script>
+            <div class="Product fl" id="Product">
+                <ol class="clearfix">
+                    <li><a href="chanpinxiangxi.html">钢琴</a></li>
+                    <li><a href="chanpinxiangxi.html">吉他</a></li>
+                    <li><a href="chanpinxiangxi.html">管乐器</a></li>
+                    <li><a href="chanpinxiangxi.html">电钢琴</a></li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            var nav_ul = document.getElementById("nav_ul");
+            var nav_ul_li = nav_ul.getElementsByTagName("li");
+            var Product = document.getElementById("Product");
+            for(i=0;i<nav_ul_li.length;i++){
+                nav_ul_li[i].onmouseover = function(){
+                    for(i=0;i<nav_ul_li.length;i++){
+                        nav_ul_li[i].className = "";
+                    }
+                    this.className = "active";
+                    if(this==nav_ul_li[1]){
+                        Product.style.display = "block";
+                    }else{
+                        Product.style.display = "none";
+                    }
+                }
+            }
+            Product.onmouseleave = function(){
+                this.style.display = "none";
+            }
+        </script>
+    </div>
+    <!-- 首页>关于雅马哈>雅马哈集团 -->
+    <div class="container-top gWidth clearfix">
+        <ol>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于雅马哈</a></li>
+            <li><a href="#">雅马哈集团</a></li>
+        </ol>
+    </div>
+    <!-- 企业大事记 -->
+    <div class="container-h1 gWidth clearfix">
+        <h1 id="h1">企业大事记</h1>
+    </div>
+    <!-- 选项卡 -->
+    <div class="container-Tab gWidth clearfix">
+        <ul id="tab-ul">
+            <li><span></span><a href="About-jtgk.html">集团概况</a></li>
+            <li class="active"><span></span><a href="About-event.html">企业大事记</a></li>
+            <li><span></span><a href="About-ppwh.html">品牌文化</a></li>
+            <li><span></span><a href="About-develop.html">产品发展史</a></li>
+        </ul>
+    </div>
+    <!-- 内容 -->
+    <div class="container-body gWidth clearfix">
+        <ul class="clearfix">
+            <li>
+                <span>年份</span>
+                <p>大事记</p>
+            </li>
+            <li>
+                <span>1887</span>
+                <p>雅马哈创始人山叶寅楠制作出他的第一台簧管风琴</p>
+            </li>
+            <li>
+                <span>1897</span>
+                <p>成立日本乐器制造株式会社( 雅马哈集团前身),注册资本为10万日元</p>
+            </li>
+            <li>
+                <span>1900</span>
+                <p>开始生产立式钢琴</p>
+            </li>
+            <li>
+                <span>1949</span>
+                <p>股票于东京证券交易所上市</p>
+            </li>
+            <li>
+                <span>1954</span>
+                <p>簧管风琴教室(雅马哈音乐中心前身)开课;开始生产Hi-Fi播放器(音响产品)</p>
+            </li>
+            <li>
+                <span>1955</span>
+                <p>成立雅马哈发动机株式会社(日本乐器制造株式会社摩托车部门独立)</p>
+            </li>
+            <li>
+                <span>1958</span>
+                <p>开始生产体育用品;第一-家海外子公司在墨西哥成立</p>
+            </li>
+            <li>
+                <span>1959</span>
+                <p>开始生产电子琴</p>
+            </li>
+            <li>
+                <span>1960</span>
+                <p>在美国成立销售子公司一雅 马哈国际股份有限公司(雅马哈美国公司前身)</p>
+            </li>
+            <li>
+                <span>1962</span>
+                <p>开始发展娱乐休闲事业</p>
+            </li>
+            <li>
+                <span>1964</span>
+                <p>开始生产居家用品</p>
+            </li>
+            <li>
+                <span>1965</span>
+                <p>开始生产管乐器</p>
+            </li>
+            <li>
+                <span>1966</span>
+                <p>成立雅马哈音乐振兴会;事业拓展至欧洲,在西德成立销售子公司一雅 马哈欧洲公司</p>
+            </li>
+            <li>
+                <span>1968</span>
+                <p>在日本按市价发行股票</p>
+            </li>
+            <li>
+                <span>1971</span>
+                <p>开始生产半导体</p>
+            </li>
+            <li>
+                <span>1987</span>
+                <p>创业100周年纪念,更名为雅马哈株式会社(即雅马哈集团)</p>
+            </li>
+            <li>
+                <span>1989</span>
+                <p>在中国成立电子乐器生产汲销售子公司一天津雅 马哈电子乐器公司</p>
+            </li>
+            <li>
+                <span>2002</span>
+                <p>成立雅马哈乐器音响(中国)投资有限公司;在德国成立欧洲总部一雅 马哈音乐欧洲控股公司(雅马哈音乐欧洲公司前身)成立</p>
+            </li>
+            <li>
+                <span>2005</span>
+                <p>收购德国Steinberg媒体技术有限公司</p>
+            </li>
+            <li>
+                <span>2007</span>
+                <p>成立音乐娱乐事业控股公司</p>
+            </li>
+            <li>
+                <span>2008</span>
+                <p>收购贝森朵夫钢琴( L. Bosendorfer Klavierfabrik GmbH ) ; 收购NEXO音响( NEXO S.A.)</p>
+            </li>
+            <li>
+                <span>2010</span>
+                <p>重建雅马哈银座大厦,包括购物区、音乐厅、录音室等转让居家用品子公司股权;所有在日的雅马哈钢琴制造工厂整合至日本挂川工厂</p>
+            </li>
+            <li>
+                <span>2012</span>
+                <p>所有在日的雅马哈管乐器制造工厂整合至日本丰冈工厂; 创业125周年纪念( 10月12日起)</p>
+            </li>
+            <li>
+                <span>2013</span>
+                <p>成立从事日本国内乐器、音响设备及音乐中心业务的雅马哈音乐日本公司.</p>
+            </li>
+            <li>
+                <span>2014</span>
+                <p>收购美国的乐器音响产品厂家Line 6和Revolabs</p>
+            </li>
+        </ul>
+    </div>
+    <!-- 底部 -->
+    <div class="footer fl">
+        <div class="F_chanpin gWidth">
+            <ul>
+                <li class="fl">
+                    <h5>产品</h5>
+                    <a href="###">钢琴</a>
+                    <br>
+                    <a href="###">电子键盘</a>
+                    <br>
+                    <a href="###">吉他</a>
+                    <br>
+                    <a href="###">爵士鼓</a>
+                    <br>
+                    <a href="###">管乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                    <a href="###">打击乐器</a>
+                    <br>
+                    <a href="###">弦乐器</a>
+                    <br>
+                </li>
+                <li class="fl l5">
+                    <h5>音乐服务</h5>
+                    <a href="###"></a><a href="###">电子键盘</a>
+                    <br>
+                    <a href="###"></a><a href="###">吉他</a>
+                    <br>
+                    <a href="###"></a><a href="###">爵士鼓</a>
+                    <br>
+                    <br><br>
+                    <h5>新闻活动</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+                <li class="fl l6">
+                    <h5>客户服务</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                    <a href="###"></a><a href="###">维修站查询</a>
+                    <br>
+                    <a href="###"></a><a href="###">下载与支持</a>
+                    <br>
+                </li>
+                <li class="fl l7">
+                    <h5>关于我们</h5>
+                    <a href="###"></a><a href="###">常见问题</a>
+                    <br>
+                </li>
+            </ul>
+        </div>
+
+        <p class="F_ban gWidth">Copyright diandongmark com019.Al1 Rights Reserved备案号冀ICP备16018121号-4</p>
+    <!-- 底部完 -->
+    </div>
+</body>
+
+</html>
